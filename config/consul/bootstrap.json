@@ -1,0 +1,9 @@
+{
+  "bootstrap": true,
+  "server": true,
+  "datacenter": "{{ hex.name }}",
+  "data_dir": "/data",
+  "encrypt": "Hw9ZSFTwNjzOS6K2nozncg==",
+  "log_level": "INFO",
+  "start_join": ["{{ hex.name }}-n1"]
+}
